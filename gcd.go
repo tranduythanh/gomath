@@ -1,5 +1,6 @@
 package gomath
 
+// GCDint64 returns Greatest Common Divisor of 2 int64
 func GCD(a, b int64) int64 {
 	c := a % b
 
